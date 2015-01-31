@@ -1,0 +1,28 @@
+{% if page.social %}
+
+
+	<ul class="social-media-container">
+
+		<li>
+			<!--Twitter Share-->
+			<a href="https://twitter.com/share?
+				text={{ page.title }}&
+				url={{ page.url | prepend: site.url }}&
+				via={{ site.twitter_username }}" target="_blank" title="Share on Twitter"><span class="fa fa-twitter-square fa-2x"></span></a>
+		</li>
+
+		<li>
+			<!--Facebook Share-->
+			
+		</li>
+
+		<li>
+			<!--Google Plus Share-->
+			
+		</li>
+		
+	</ul>
+
+	
+
+{% endif %}
